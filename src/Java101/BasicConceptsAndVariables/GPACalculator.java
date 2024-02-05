@@ -34,5 +34,7 @@ public class GPACalculator {
         String pass = avg >= 60 ? "Congratulations! You Have Passed The Class." : "We're Sorry. You Have Failed The Class.";
 
         System.out.println(pass);
+        
     }
+
 }
