@@ -23,4 +23,5 @@ public class KDVCalculator {
         System.out.println("Total Price : " + total);
 
     }
+
 }
