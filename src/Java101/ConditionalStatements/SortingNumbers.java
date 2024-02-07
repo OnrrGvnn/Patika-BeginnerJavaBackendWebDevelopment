@@ -17,23 +17,23 @@ public class SortingNumbers {
         System.out.print("Enter The Third Number : ");
         number3 = input.nextInt();
 
-        if ((number1 > number2) && (number1 > number3)) {
-            if (number2 > number3) {
-                System.out.print("\n" + number1 + ">" + number2 + ">" + number3 + "\n");
+        if ((number1 < number2) && (number1 < number3)) {
+            if (number2 < number3) {
+                System.out.print("\n" + number1 + "<" + number2 + "<" + number3 + "\n");
             } else {
-                System.out.print("\n" + number1 + ">" + number3 + ">" + number2 + "\n");
+                System.out.print("\n" + number1 + "<" + number3 + "<" + number2 + "\n");
             }
-        } else if ((number2 > number1) && (number2 > number3)) {
-            if (number1 > number3) {
-                System.out.print("\n" + number2 + ">" + number1 + ">" + number3 + "\n");
+        } else if ((number2 < number1) && (number2 < number3)) {
+            if (number1 < number3) {
+                System.out.print("\n" + number2 + "<" + number1 + "<" + number3 + "\n");
             } else {
-                System.out.print("\n" + number2 + ">" + number3 + ">" + number1 + "\n");
+                System.out.print("\n" + number2 + "<" + number3 + "<" + number1 + "\n");
             }
         } else {
-            if (number1 > number3) {
-                System.out.print("\n" + number3 + ">" + number1 + ">" + number2 + "\n");
+            if (number1 < number3) {
+                System.out.print("\n" + number3 + "<" + number1 + "<" + number2 + "\n");
             } else {
-                System.out.print("\n" + number3 + ">" + number2 + ">" + number1 + "\n");
+                System.out.print("\n" + number3 + "<" + number2 + "<" + number1 + "\n");
             }
         }
 
