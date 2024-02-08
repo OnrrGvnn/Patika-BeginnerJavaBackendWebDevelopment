@@ -1,4 +1,4 @@
-/* Girilen ay ve güne göre burç bulan programı yazınız. Switch-case kullanmadan yapınız. */
+/* Girilen ay ve güne göre burç bulan programı yazınız. Switch-case kullanmadan yapınız.  */
 
 package Java101.ConditionalStatements;
 
