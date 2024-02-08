@@ -12,8 +12,7 @@ public class UserInput {
 
         String userName, password, select;
 
-        System.out.println();
-        System.out.print("Please Enter Your Username : ");
+        System.out.print("\nPlease Enter Your Username : ");
         userName = input.nextLine();
         System.out.print("Please Enter Your Password : ");
         password = input.nextLine();
@@ -22,7 +21,7 @@ public class UserInput {
             System.out.println("\nLogged In!");
         } else {
             System.out.println("\nUsername Or Password Is Incorrect!");
-            System.out.println("Would You Like To Reset Your Password?");
+            System.out.println("\nWould You Like To Reset Your Password?");
             System.out.print("Yes Or No? : ");
             select = input.nextLine();
 
