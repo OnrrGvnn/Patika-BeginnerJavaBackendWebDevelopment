@@ -8,8 +8,7 @@ public class BasicCalculatorIfElse {
 
         int number1, number2, select;
 
-        System.out.println();
-        System.out.print("Please Enter The First Number : ");
+        System.out.print("\nPlease Enter The First Number : ");
         number1 = input.nextInt();
         System.out.print("Please Enter The Second Number : ");
         number2 = input.nextInt();
@@ -33,5 +32,7 @@ public class BasicCalculatorIfElse {
         } else {
             System.out.println("\nPlease Choose A Number Between 1 And 4!");
         }
+
     }
+
 }
