@@ -1,4 +1,4 @@
-/* Girilen 3 sayıyı "küçükten büyüğe" sıralayan programı yazınız. */
+/* Girilen 3 sayıyı "küçükten büyüğe" sıralayan programı yazınız.  */
 
 package Java101.ConditionalStatements;
 
