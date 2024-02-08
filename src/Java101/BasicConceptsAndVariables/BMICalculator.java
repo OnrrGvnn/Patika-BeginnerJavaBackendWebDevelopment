@@ -10,16 +10,14 @@ public class BMICalculator {
 
         double height, weight, bmi;
 
-        System.out.println();
-        System.out.print("Please Enter Your Height (in meters) : ");
+        System.out.print("\nPlease Enter Your Height (in meters) : ");
         height = input.nextDouble();
         System.out.print("Please Enter Your Weight (in kg) : ");
         weight = input.nextDouble();
 
         bmi = (weight / (height * height));
 
-        System.out.println();
-        System.out.println("Your Body Mass Index : " + bmi);
+        System.out.println("\nYour Body Mass Index : " + bmi);
 
     }
 
