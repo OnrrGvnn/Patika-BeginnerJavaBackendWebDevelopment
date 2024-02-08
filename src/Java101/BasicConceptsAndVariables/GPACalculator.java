@@ -12,9 +12,9 @@ public class GPACalculator {
 
         int mat, physic, chem, turkish, hist, music;
         double avg;
+        String pass;
 
-        System.out.println();
-        System.out.print("Please Enter The Math Grade : ");
+        System.out.print("\nPlease Enter The Math Grade : ");
         mat = input.nextInt();
         System.out.print("Please Enter The Physics Grade : ");
         physic = input.nextInt();
@@ -29,10 +29,9 @@ public class GPACalculator {
 
         avg = (double) (mat + physic + chem + turkish + hist + music) / 6;
 
-        System.out.println();
-        System.out.println("Average : " + avg);
+        System.out.println("\nAverage : " + avg);
 
-        String pass = avg >= 60 ? "Congratulations! You Have Passed The Class." : "We're Sorry. You Have Failed The Class.";
+        pass = avg >= 60 ? "Congratulations! You Have Passed The Class." : "We're Sorry. You Have Failed The Class.";
 
         System.out.println(pass);
 
