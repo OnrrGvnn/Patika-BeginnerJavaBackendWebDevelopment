@@ -11,8 +11,7 @@ public class GreengroceryPriceCalculator {
         double pricePear = 2.14, priceApple = 3.67, priceTomato = 1.11, priceBanana = 0.95, priceEggplant = 5, total;
         int numberPear, numberApple, numberTomato, numberBanana, numberEggplant;
 
-        System.out.println();
-        System.out.print("Please Enter The Quantity Of Pears You Would Like To Purchase : ");
+        System.out.print("\nPlease Enter The Quantity Of Pears You Would Like To Purchase : ");
         numberPear = input.nextInt();
         System.out.print("Please Enter The Quantity Of Apples You Would Like To Purchase : ");
         numberApple = input.nextInt();
@@ -25,8 +24,7 @@ public class GreengroceryPriceCalculator {
 
         total = ((pricePear * numberPear) + (priceApple * numberApple) + (priceTomato * numberTomato) + (priceBanana * numberBanana) + (priceEggplant * numberEggplant));
 
-        System.out.println();
-        System.out.println("Total Price : " + total);
+        System.out.println("\nTotal Price : " + total);
 
     }
 
