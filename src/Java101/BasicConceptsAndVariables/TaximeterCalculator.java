@@ -13,16 +13,14 @@ public class TaximeterCalculator {
 
         double km, perKm = 2.20, startPrice = 10, price, total;
 
-        System.out.println();
-        System.out.print("Enter The Distance Traveled In Kilometers : ");
+        System.out.print("\nEnter The Distance Traveled In Kilometers : ");
         km = input.nextDouble();
 
         price = startPrice + (km * perKm);
 
         total = (price <= 20) ? 20 : price;
 
-        System.out.println();
-        System.out.println("Taximeter Price : " + total);
+        System.out.println("\nTaximeter Price : " + total);
 
     }
 
