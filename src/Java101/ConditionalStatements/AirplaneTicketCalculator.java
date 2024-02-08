@@ -48,8 +48,8 @@ public class AirplaneTicketCalculator {
                         break;
                     default:
                         isError = true;
-
                 }
+
             } else {
                 isError = true;
             }
