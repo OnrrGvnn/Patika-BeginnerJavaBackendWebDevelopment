@@ -10,15 +10,13 @@ public class CircleAreaAndCircumferenceCalculator {
 
         double r, pi = 3.14, area, circumference;
 
-        System.out.println();
-        System.out.print("Enter The Radius Of The Circle : ");
+        System.out.print("\nEnter The Radius Of The Circle : ");
         r = input.nextDouble();
 
         area = (pi * (r * r));
         circumference = (2 * pi * r);
 
-        System.out.println();
-        System.out.println("Circle Area : " + area);
+        System.out.println("\nCircle Area : " + area);
         System.out.println("Circle Circumference : " + circumference);
 
     }
