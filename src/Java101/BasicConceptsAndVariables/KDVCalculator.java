@@ -11,13 +11,11 @@ public class KDVCalculator {
 
         double price, kdvPrice, total;
 
-        System.out.println();
-        System.out.print("Please Enter The Price : ");
+        System.out.print("\nPlease Enter The Price : ");
         price = input.nextDouble();
 
         kdvPrice = (price > 0 && price <= 1000) ? (0.18 * price) : (0.08 * price);
-        System.out.println();
-        System.out.println("KDV Price : " + kdvPrice);
+        System.out.println("\nKDV Price : " + kdvPrice);
 
         total = (price + kdvPrice);
         System.out.println("Total Price : " + total);
