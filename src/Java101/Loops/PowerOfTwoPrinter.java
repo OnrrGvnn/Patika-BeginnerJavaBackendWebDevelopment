@@ -19,7 +19,7 @@ public class PowerOfTwoPrinter {
                 System.out.print(i + " ");
             }
         } else {
-            System.out.println("You Made A Invalid Entry !");
+            System.out.println("You Made An Invalid Entry. Please Try Again!");
         }
 
         System.out.println();
