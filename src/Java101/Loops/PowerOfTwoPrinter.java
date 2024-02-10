@@ -12,17 +12,19 @@ public class PowerOfTwoPrinter {
 
         System.out.print("\nPlease Enter A Number : ");
         userNumber = input.nextInt();
-        System.out.println();
 
         if (userNumber > 0) {
+            System.out.print("\nPowers Of Two : ");
+
             for (int i = 1; i <= userNumber; i *= 2) {
                 System.out.print(i + " ");
             }
-        } else {
-            System.out.println("You Made An Invalid Entry. Please Try Again!");
-        }
 
-        System.out.println();
+            System.out.println();
+
+        } else {
+            System.out.println("\nYou Made An Invalid Entry. Please Try Again!");
+        }
 
     }
 
