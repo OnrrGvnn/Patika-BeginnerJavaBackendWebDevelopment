@@ -27,8 +27,9 @@ public class ThreeAndFourAverageCalculator {
             average = (total / numberCount);
 
             System.out.println("\nAverage : " + average);
+
         } else {
-            System.out.print("You Made An Invalid Entry. Please Try Again!\n");
+            System.out.println("You Made An Invalid Entry. Please Try Again!");
         }
 
     }
