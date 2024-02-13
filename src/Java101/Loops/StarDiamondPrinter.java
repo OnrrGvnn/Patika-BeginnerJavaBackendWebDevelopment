@@ -28,7 +28,7 @@ public class StarDiamondPrinter {
 
             }
 
-            for (int i = 0; i <= userNumber; i++) {
+            for (int i = 0; i < userNumber; i++) {
                 for (int j = 0; j <= i; j++) {
                     System.out.print(" ");
                 }
@@ -41,9 +41,9 @@ public class StarDiamondPrinter {
 
             }
         } else {
-            System.out.println("\nYou Made An Invalid Entry. Please Try Again!");
+            System.out.println("You Made An Invalid Entry. Please Try Again!");
         }
 
     }
-    
+
 }
