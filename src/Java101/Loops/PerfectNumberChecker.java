@@ -34,5 +34,7 @@ public class PerfectNumberChecker {
         } else {
             System.out.println("\nYou Made An Invalid Entry. Please Try Again!");
         }
+
     }
+
 }
