@@ -1,3 +1,5 @@
+// Dizideki sayıların harmonik ortalamasını hesaplayan programı yazınız.
+
 package Java101.Arrays;
 
 public class HarmonicMeanCalculator {
