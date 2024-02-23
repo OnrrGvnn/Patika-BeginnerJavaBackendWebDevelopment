@@ -1,3 +1,5 @@
+// Çok boyutlu diziler kullanılarak "yıldızlar" ile ekrana "B" harfi yazan programı yazınız.
+
 package Java101.Arrays;
 
 public class StarBPrinter {
